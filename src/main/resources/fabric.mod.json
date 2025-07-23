@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://sam.net/",
-		"sources": "https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-1.21.X"
+		"sources": "https://github.com/minecraft-bread/tutorialmod-template-1.21"
 	},
 	"license": "MIT",
 	"icon": "assets/tutorialmod/icon.png",
