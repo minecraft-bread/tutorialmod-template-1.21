@@ -4,5 +4,8 @@
 
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
-  "block.tutorialmod.green_ore": "Green Ore"
+  "block.tutorialmod.green_ore": "Green Ore",
+
+  "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks"
 }
