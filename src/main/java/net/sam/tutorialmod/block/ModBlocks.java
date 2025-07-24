@@ -22,6 +22,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool()));
 
+    public static final Block GREEN_ORE = registerBlock("green_ore",
+            new Block(AbstractBlock.Settings.create().strength(10f)
+                    .velocityMultiplier(10f).jumpVelocityMultiplier(10f)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Tutorialmod.MOD_ID, name), block);
@@ -38,6 +42,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries ->{
             entries.add(ModBlocks.PINK_GARNET_BLOCK);
             entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+            entries.add(ModBlocks.GREEN_ORE);
         });
     }
 }
